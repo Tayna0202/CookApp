@@ -12,7 +12,14 @@ export const styles = StyleSheet.create({
         alignSelf: "center",
     },
     header:{
-        
+        flexDirection: "row",
+        justifyContent: "space-between",
+        alignItems: "center",
+        marginBottom: 34,
     },
-    label: {},
+    label: {
+        color: theme.colors.white,
+        fontSize: theme.fonts.size.body.sm,
+        fontFamily: theme.fonts.family.regular,
+    },
 })
